@@ -1,5 +1,6 @@
 body {
     margin: 0px !important;
+    padding: 0px !important;
 }
 
 .red {
@@ -13,10 +14,20 @@ body {
 
 
 .banner {
-    height: 500px;
+    height: 900px;
     background: url('./banner.jpg') center center no-repeat;
     /* background-size:cover; */
     padding: 20px;
+}
+
+.banner .btn-start-now button {
+    border: 1px solid green;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 25px;
+    cursor: pointer;
+
 }
 
 .about-sign-in {
@@ -70,15 +81,6 @@ body {
     text-align: center;
 }
 
-.button {
-    border: 1px solid green;
-    text-transform: uppercase;
-    border-radius: 20px;
-    padding: 10px 15px;
-    margin-top: 25px;
-    cursor: pointer;
-
-}
 
 .left, .center, .right {
     width: 33%;
